@@ -69,7 +69,7 @@ setup(
     install_requires=read_requirements("requirements_dev.txt"),
     entry_points={
         "console_scripts": ["OpenPIL_AI = OpenPIL_AI.__main__:main"]
-    },
+    }
     # extras_require={"test": read_requirements("requirements-test.txt")},
 )
 
