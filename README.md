@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋 Incase you are reading this before I have written a proper 'ReadMe' section, hold tight, it will be here tomorrow or the day after!
 
 <!--
 **OpenPIL/OpenPIL** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
