@@ -66,7 +66,7 @@ def read_requirements(path):
 
 setup(
     name="OpenPIL_AI",
-    version=read("OpenPIL_AI/OpenPIL_AI.py"),
+    version="0.0.1",
     description="AI that extracts clinical drug information from Summary of Product Characteristics pdf documents. This includes information on active-substances, active-excipients, formulation, drug-drug-interactions and drug-class-interactions.",
     url="https://github.com/OpenPIL/OpenPIL",
     long_description=read("/Volumes/HARRISDRIVE/GitHub/OpenPIL/README.md"),
