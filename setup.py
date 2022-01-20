@@ -32,19 +32,12 @@
 
 
 
-"""Python setup.py for project_name package"""
 import io
 import os
 from setuptools import find_packages, setup
 
 
 def read(*paths, **kwargs):
-    """Read the contents of a text file safely.
-    >>> read("project_name", "VERSION")
-    '0.1.0'
-    >>> read("README.md")
-    ...
-    """
 
     content = ""
     with io.open(
@@ -66,7 +59,7 @@ def read_requirements(path):
 
 setup(
     name="OpenPIL_AI",
-    version="0.0.7",
+    version="0.0.8",
     description="AI that extracts clinical drug information from Summary of Product Characteristics pdf documents. This includes information on active-substances, active-excipients, formulation, drug-drug-interactions and drug-class-interactions.",
     url="https://github.com/OpenPIL/OpenPIL",
     long_description=read("/Volumes/HARRISDRIVE/GitHub/OpenPIL/README.md"),

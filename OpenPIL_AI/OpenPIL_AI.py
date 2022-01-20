@@ -1,2 +1,3 @@
-def convert(string):
-    print(string)
+def convert(int):
+    var int2 = int
+    print(int2)
