@@ -1,3 +1,0 @@
-PyPDF2
-pdftotext
-nltk
