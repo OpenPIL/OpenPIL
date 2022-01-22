@@ -97,7 +97,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
   
-  <br>
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
     <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
