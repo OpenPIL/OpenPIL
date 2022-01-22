@@ -16,39 +16,53 @@
 *** See the bottom of this document for the declaration of the reference variables
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+--> 
+
+<!-- <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/OpenPIL/OpenPIL?color=brightfreen&logo=github"> -->
+<!-- <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/OpenPIL/OpenPIL?color=brightgreen&logo=github"> -->
+<!-- https://img.shields.io/badge/🏆%20Awards-University%20of%20Manchester%20Making%20A%20Difference%20Award-brightgreen?style=flat&logo=UniversityOfManchester?style=flat -->
+
+
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+<!--   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  </a> -->
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">OpenPIL</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
+    The open-source AI making medication information free and safe for the developing world.
+<!--     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
+    <br /> -->
+<!--     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a> -->
   </p>
 </div>
 
+<p align="center">
+  <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+          <img src="https://img.shields.io/badge/organisation-Non--Profit-brightgreen?style=flat&logo=UniversityOfManchester?style=flat" /></a>
+  <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/github/license/OpenPIL/OpenPIL?color=brightgreen" /></a>
+    <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+          <img src="https://img.shields.io/badge/🏆%20awards-University%20of%20Manchester%20Making%20A%20Difference%20Award-brightgreen?style=flat&logo=UniversityOfManchester?style=flat" /></a>
+      <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/github/languages/count/OpenPIL/OpenPIL?color=brightgreen?style=flat" /></a>
+    <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+          <img src="https://img.shields.io/badge/pypi%20package-v2.0.1-brightgreen?style=flat" /></a>
+    <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+          <img src="https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-brightgreen?style=flat" /></a>
+</p>
 
 
 <!-- TABLE OF CONTENTS -->
