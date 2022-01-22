@@ -109,28 +109,20 @@
 
 ## About The Project
 
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-
 ### What We Do.
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+OpenPIL is a registered non-profit organisation that has built an artificial intelligence algorithm to extract essential drug information from public domain Summary of Product Characteristic Documentation. Through this, we aim to soon compile the largest and most up-to-date medication information database in existence, and then make it free for the world. The project has already won a highly competitive and prestigious award from the University of Manchester.
 
 ### Why?
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+This essential clinical information is currently highly-privatised, which restricts access and puts peoples lives at risk. This is particularly of concern for those in developing or war-torn countries, whose access to up-to-date medicinal information is limited, even though it doesn't have to be.
 
 Use the `BLANK_README.md` to get started.
 
-### How Does It Work?
+### How We Are Doing It?
+The AI currently retrieves information on active-substances, formulations, active-excipients, and drug-drug interactions. Research is being carried out to continuously improve the AI's reliability and accuracy. We are aiming to soon expand the AI to handle information pertaining to a medication's indications, cautions, advisory instructions, side-effects, safety of use during pregnancy, and storage conditions. This pharmaceutical data will also be very valuable to healthcare startups, local pharmacies, open-source drug development projects and medicinal researchers.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<br>
+
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
     <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
@@ -183,7 +175,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<br>
+
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
     <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
@@ -206,7 +198,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<br>
+
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
     <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
@@ -228,7 +220,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<br>
+
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
     <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
@@ -251,7 +243,7 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<br>
+
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
     <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
@@ -265,7 +257,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<br>
+
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
     <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
@@ -281,7 +273,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<br>
+
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
     <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
