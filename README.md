@@ -160,10 +160,54 @@ _If this doesn't work, make sure you have the dependencies, as can be seen below
 
 ### Dependencies
 
-This is an example of how to list things you need to use the software and how to install them.
-  ```sh
-  npm install npm@latest -g
-  ```
+You will need the latest version of python if you are still running python2.
+```
+pip install --upgrade python
+```
+
+You will need the following modules (nltk, PyPDF2, pdftotext):
+
+```
+pip install nltk
+```
+```
+pip install PyPDF2
+```
+```
+pip install pdftotext
+```
+
+_or if you already have them_
+```
+pip install --upgrade nltk
+```
+```
+pip install --upgrade PyPDF2
+```
+```
+pip install --upgrade pdftotext
+```
+
+All other modules should come pre-installed with Python3, they as follows incase you are missing any:
+
+```
+pip install re
+```
+```
+pip install string
+```
+```
+pip install math
+```
+```
+pip install ctypes
+```
+```
+pip install sys
+```
+```
+pip install platform
+```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
