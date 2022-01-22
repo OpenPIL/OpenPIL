@@ -27,16 +27,21 @@
 
 
 <!-- PROJECT LOGO -->
+
+<br>
+
 <br />
 <div align="center">
-<!--   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a> -->
-
-  <h3 align="center">OpenPIL</h3>
-
+    <a href="https://github.com/OpenPIL/OpenPIL">
+    <img src="/Assets/OpenPILReadME.png" alt="Logo" height="150" style="padding-top: 100px">
+  </a>
+    <br>
+    <br>
+  <h3 align="center">The non-profit open-source AI making medication information free and safe for the developing world.</h3>
+    <br>
+<!-- 
   <p align="center">
-    The open-source AI making medication information free and safe for the developing world.
+     -->
   </p>
 </div>
 
@@ -55,6 +60,13 @@
           <img src="https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-brightgreen?style=flat" /></a>
 </p>
 
+
+
+
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -81,12 +93,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
