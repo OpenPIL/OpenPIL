@@ -63,7 +63,7 @@
 
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
-    <img src="/Assets/Seperator.png" alt="Logo" width="100%" style="padding-top: 100px">
+    <img src="/Assets/Seperator.png" alt="Logo" width="100%">
   </a>
 </div>
 
