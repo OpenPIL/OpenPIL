@@ -134,7 +134,7 @@ The AI currently retrieves information on active-substances, formulations, activ
 These are the instructions to install the OpenPIL AI locally and get started with analysing those Summary of Product Characteristics Documents (.pdf).
 
 ### Installation
-The OpenPIL AI is really easy install. Simple type the below command into your terminal.
+The OpenPIL AI is really easy install. Simply type the below command into your terminal.
 
 ```
 pip install OpenPIL
