@@ -60,10 +60,10 @@
           <img src="https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-brightgreen?style=flat" /></a>
 </p>
 
-
+<br>
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
-    <img src="/Assets/Seperator.png" alt="Logo" width="100%">
+    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
   </a>
 </div>
 
@@ -96,6 +96,13 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
+  
+  <br>
+<div align="center">
+    <a href="https://github.com/OpenPIL/OpenPIL">
+    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+  </a>
+</div>
 <!-- </details> -->
 
 <!-- ABOUT THE PROJECT -->
@@ -123,6 +130,12 @@ Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<br>
+<div align="center">
+    <a href="https://github.com/OpenPIL/OpenPIL">
+    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+  </a>
+</div>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -170,7 +183,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+<br>
+<div align="center">
+    <a href="https://github.com/OpenPIL/OpenPIL">
+    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+  </a>
+</div>
 
 ## Datasets
 
@@ -188,6 +206,13 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+<br>
+<div align="center">
+    <a href="https://github.com/OpenPIL/OpenPIL">
+    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+  </a>
+</div>
+
 <!-- ROADMAP -->
 ## Roadmap
 
@@ -203,7 +228,12 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+<br>
+<div align="center">
+    <a href="https://github.com/OpenPIL/OpenPIL">
+    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+  </a>
+</div>
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -221,7 +251,12 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+<br>
+<div align="center">
+    <a href="https://github.com/OpenPIL/OpenPIL">
+    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+  </a>
+</div>
 
 <!-- LICENSE -->
 ## License
@@ -230,7 +265,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+<br>
+<div align="center">
+    <a href="https://github.com/OpenPIL/OpenPIL">
+    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+  </a>
+</div>
 
 <!-- CONTACT -->
 ## Contact
@@ -241,7 +281,12 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+<br>
+<div align="center">
+    <a href="https://github.com/OpenPIL/OpenPIL">
+    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+  </a>
+</div>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
