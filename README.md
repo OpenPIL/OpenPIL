@@ -77,8 +77,8 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#dependencies">Dependencies</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#dependencies">Dependencies</a></li>
         <li><a href="#usage">Usage</a></li>
       </ul>
     </li>
