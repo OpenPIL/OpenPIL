@@ -60,43 +60,49 @@
           <img src="https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-brightgreen?style=flat" /></a>
 </p>
 
-
-
-
-
-<!-- ABOUT THE PROJECT -->
-
-## About The Project
-
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
+## Table of Contents
+
+<!-- <details> -->
+<!--   <summary>Table of Contents</summary> -->
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+         <ul>
+             <li><a href="#what-we-do">What is OpenPIL AI?</a></li>
+             <li><a href="#why">Why?</a></li>
+             <li><a href="#how-does-it-work">How does it work?</a></li>
+        </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#dependencies">Dependencies</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#datasets">Datasets</a></li>
+    <li><a href="#roadmap">Development</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
-</details>
+<!-- </details> -->
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+
+### What We Do.
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
+### Why?
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
 * You shouldn't be doing the same tasks over and over like creating a README from scratch
@@ -106,11 +112,13 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 Use the `BLANK_README.md` to get started.
 
+### How Does It Work?
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-### Built With
+## Datasets
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
@@ -133,7 +141,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+
+### Dependencies
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
@@ -164,7 +173,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+### Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
