@@ -203,7 +203,7 @@ pip install platform
 <!-- USAGE EXAMPLES -->
 ### Usage
 
-The OpenPIL AI requires only one line of code to run, so it's really easy! Here is how to set it up in a python >=3.7 environment.
+The OpenPIL AI requires only one line of code to run, so it's really easy! Here is how to set it up in a python environment.
 
 <!-- <div align="center">
 <img src="https://im7.ezgif.com/tmp/ezgif-7-56d6a6ff6c.gif" width="100%" />
