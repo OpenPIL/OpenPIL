@@ -11693,8 +11693,8 @@ footer a:hover, footer a:active, footer a:focus {
 }
 
 .masthead {
-    background: url('assets/img/OP-header-BG.png') no-repeat center center fixed;
-    background-size: cover;
+/*    background: url('assets/img/OP-header-BG.png') no-repeat center center fixed;*/
+/*    background-size: cover;*/
 /*  background-color: #2E0065;*/
 /*  padding-top: 1rem;*/
 /*  padding-bottom: 12rem;*/
