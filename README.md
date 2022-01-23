@@ -107,11 +107,11 @@
 
 ### What is OpenPIL?
 
-OpenPIL is a non-profit organisation with an AI in its heart. The AI, maintained and developed by Malik Ahmed (MPharm), extracts essential drug information from Summary of Product Characteristics (SmPC) documents. These are drug documents which hold all the important information that doctors and pharmacists use to make decisions about prescribing medicine. OpenPIL requires the user to write one line of code, and a path to the SmPC .pdf file. It then processes the natural language in the document using datasets curated by Malik, sourced from copyright-free libraries (see references below), to show information on active-substances, active-excipients, formulation, drug-drug interactions, and drug-class interactions. The run time is fast - approx 4 minutes for a medium length SmPC document, especially when compared to the 1 hour it takes a healthcare professional to extract that information into an excel spreadsheet manually.
+OpenPIL is a non-profit organisation with an AI in its heart 💜. The AI, maintained and developed by Malik Ahmed 👨🏽‍💻 (MPharm 🥼💊), extracts essential drug information from Summary of Product Characteristics (SmPC) documents. These are drug documents 📄 which hold all the important information that doctors and pharmacists 👨🏽‍⚕️🧑🏻‍⚕️ use to make decisions about prescribing medicine. OpenPIL AI 🤖 requires the user to write one line of code, and a path to the SmPC .pdf file. It then processes the natural language in the document using datasets curated by Malik, sourced from copyright-free libraries (see references below), to show information on active-substances, active-excipients, formulation, drug-drug interactions, and drug-class interactions. It took my team of clinical advisors about 1 hour to extract that information into an excel spreadsheet manually 🔬😥; the AI run time is approx. 4 minutes for a medium length SmPC document 🏃🏽‍♂️💨 😄, so it's pretty fast, especially considering the volume of data it's processing through.
 
 ### Why is this important?
 
-Currently this essential clinical medication information is highly-privatised, which restricts access to healthcare technology developers who need it to create ground-breaking products for patients. This restriction limits the current state of healthcare-technology, and indirectly is putting peoples health at greater risk. This is particularly of concern for those in developing and war-torn countries, whose access to up-to-date medicinal information is limited, even though it doesn't have to be. The aim of making the OpenPIL AI open-source is to accelerate the development of affordable drug-databases and healthcare technology around the world!
+Currently this essential clinical medication information is highly-privatised 💸, which restricts access to healthcare technology developers who need it to create ground-breaking products for patients 🚫. This restriction limits the current state of healthcare-technology, and indirectly is putting peoples health at greater risk. This is particularly of concern for those in developing and war-torn countries, whose access to up-to-date medicinal information is limited, even though it doesn't have to be. The aim of making the OpenPIL AI open-source is to accelerate the development of affordable drug-databases and healthcare technology 📈👨🏽‍💻 around the world🌍!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -240,7 +240,7 @@ SmPC Complete!
 }
 ```
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+And that's it! Get a group of summary of product characteristic documents in the .pdf format stored locally, run a simple for-loop through them, sit back, wait, and then BOOM! You're very own clinical drug-information database!
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
