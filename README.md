@@ -239,7 +239,6 @@ Please note, that the accuracy and reliability hasn't been fully tested yet, alt
 The datasets used for the OpenPIL AI were curated by Malik Ahmed and they are as follows:
 * [drugNameDataset.py](https://github.com/OpenPIL/OpenPIL/)
 * [drugClassSynonymDataset.py](https://github.com/OpenPIL/OpenPIL/)
-* *The drug class synonyms dataset was compiled from a combination of RxClass database as well as (other website) along with PubMed searching.
 * [drugClassDataset.py](https://github.com/OpenPIL/OpenPIL/)
 
 
