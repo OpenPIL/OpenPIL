@@ -169,7 +169,7 @@ pip install --upgrade PyPDF2
 pip install --upgrade pdftotext
 ``` -->
 
-All other modules should come pre-installed with Python3, they as follows incase you are missing any:
+All other modules should come pre-installed with Python3, they are as follows incase you are missing any:
 
 <ul>
     <li><a >re</a></li>
