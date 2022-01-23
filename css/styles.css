@@ -7371,6 +7371,8 @@ textarea.form-control-lg {
   margin-top: 0 !important;
 }
 
+
+
 .mt-1 {
   margin-top: 0.25rem !important;
 }
@@ -12667,11 +12669,17 @@ p .example-title {
 
 
 
-
-
-
-
-
+.big-cir {
+   background-color: none;
+   height: 40px;
+   width: 40px;
+    min-width: 40px;
+   border-radius: 50%;
+/*   position: relative;*/
+   border-color: rgb(167, 183, 254);
+   border-style: solid;
+   border-width: 2px;
+}
 
 
 
