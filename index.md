@@ -10,7 +10,7 @@
 <br />
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
-    <img src="/Assets/OpenPILReadME.png" alt="Logo" width="60%" style="padding-top: 100px">
+    <img src="/assets/img/OpenPILReadME.png" alt="Logo" width="60%" style="padding-top: 100px">
   </a>
     <br>
     <br>
@@ -37,7 +37,7 @@
 <br>
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
-    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+    <img src="/assets/img/Seperator 20.59.10.png" alt="Logo" width="100%">
   </a>
 </div>
 
@@ -73,7 +73,7 @@
   
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
-    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+    <img src="/assets/img/Seperator 20.59.10.png" alt="Logo" width="100%">
   </a>
 </div>
 <!-- </details> -->
@@ -95,7 +95,7 @@ Currently this essential clinical medication information is highly-privatised ðŸ
 
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
-    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+    <img src="/assets/img/Seperator 20.59.10.png" alt="Logo" width="100%">
   </a>
 </div>
 
@@ -230,7 +230,7 @@ Please note, that the accuracy and reliability hasn't been fully tested yet, alt
 
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
-    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+    <img src="/assets/img/Seperator 20.59.10.png" alt="Logo" width="100%">
   </a>
 </div>
 
@@ -253,7 +253,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
-    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+    <img src="/assets/img/Seperator 20.59.10.png" alt="Logo" width="100%">
   </a>
 </div>
 
@@ -275,7 +275,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
-    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+    <img src="/assets/img/Seperator 20.59.10.png" alt="Logo" width="100%">
   </a>
 </div>
 
@@ -298,7 +298,7 @@ Don't forget to give the project a star! Thanks again!
 
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
-    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+    <img src="/assets/img/Seperator 20.59.10.png" alt="Logo" width="100%">
   </a>
 </div>
 
@@ -312,7 +312,7 @@ Distributed under the Apache License 2.0. See `LICENSE.txt` for more information
 
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
-    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+    <img src="/assets/img/Seperator 20.59.10.png" alt="Logo" width="100%">
   </a>
 </div>
 
@@ -328,7 +328,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
-    <img src="/Assets/Seperator 20.59.10.png" alt="Logo" width="100%">
+    <img src="/assets/img/Seperator 20.59.10.png" alt="Logo" width="100%">
   </a>
 </div>
 
