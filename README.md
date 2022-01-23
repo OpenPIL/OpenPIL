@@ -136,28 +136,15 @@ The OpenPIL AI is really easy install. Simply type the below command into your t
 ```
 pip install OpenPIL
 ```
-<!-- <br> -->
 
-_or_
-
-```
-pip3 install OpenPIL
-```
-<!-- <br> -->
-
-_or_
-```
-python3 -m pip install OpenPIL
-```
-<!-- <br> -->
 
 _If this doesn't work, make sure you have the dependencies, as can be seen below._
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 ### Dependencies
 
-You will need the latest version of python if you are still running python2.
+You will need the latest version of python.
 ```
 pip install --upgrade python
 ```
@@ -174,7 +161,7 @@ pip install PyPDF2
 pip install pdftotext
 ```
 
-_or if you already have them_
+<!-- _or if you already have them_
 ```
 pip install --upgrade nltk
 ```
@@ -183,10 +170,19 @@ pip install --upgrade PyPDF2
 ```
 ```
 pip install --upgrade pdftotext
-```
+``` -->
 
 All other modules should come pre-installed with Python3, they as follows incase you are missing any:
 
+<ul>
+    <li><a >re</a></li>
+    <li><a >string</a></li>
+    <li><a >math</a></li>
+    <li><a >ctypes</a></li>
+    <li><a >sys</a></li>
+    <li><a >platform</a></li>
+</ul>
+<!-- 
 ```
 pip install re
 ```
@@ -204,11 +200,20 @@ pip install sys
 ```
 ```
 pip install platform
-```
-<p align="right">(<a href="#top">back to top</a>)</p>
+``` -->
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- USAGE EXAMPLES -->
 ### Usage
+
+The OpenPIL AI requires only one line of code to run, so it's really easy! Here is how to set it up in a python >=3.7 environment.
+```
+from OpenPIL import OpenPIL
+
+
+
+print(OpenPIL.AI("/path/to/the/smpc.pdf"))
+```
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
