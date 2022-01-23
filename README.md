@@ -240,9 +240,11 @@ SmPC Complete!
 }
 ```
 
-And that's it! Get a group of summary of product characteristic documents in the .pdf format stored locally, run a simple for-loop through them, sit back, wait, and then BOOM! You're very own clinical drug-information database!
+And that's it! 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Pretty easy right? Well, the one line of code is the result of 2 years of working on some beautiful code and datasets, unpaid! So if you could donate, or check out my medication tracking app, Dosewolf, that may be able to help reduce the side-effects of your medication by spacing your doses correctly, built with a database relying entirely on the OpenPIL AI, it would be very appreciated! And it would mean I could continue to improve the AI and expand it's capacities.
+
+So what are you waiting for! Get a group of summary of product characteristic documents in the .pdf format stored locally, run a simple for-loop through them, sit back 🪑😎, wait, and then BOOM 💥🤯! You're very own clinical drug-information database!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
