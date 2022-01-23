@@ -33,15 +33,12 @@
 <br />
 <div align="center">
     <a href="https://github.com/OpenPIL/OpenPIL">
-    <img src="/Assets/OpenPILReadME.png" alt="Logo" height="150" style="padding-top: 100px">
+    <img src="/Assets/OpenPILReadME.png" alt="Logo" width="60%" style="padding-top: 100px">
   </a>
     <br>
     <br>
   <h3 align="center">The non-profit open-source AI making medication information free and safe for the developing world.</h3>
     <br>
-<!-- 
-  <p align="center">
-     -->
   </p>
 </div>
 
@@ -207,12 +204,40 @@ pip install platform
 ### Usage
 
 The OpenPIL AI requires only one line of code to run, so it's really easy! Here is how to set it up in a python >=3.7 environment.
-```
+
+<!-- <div align="center">
+<img src="https://im7.ezgif.com/tmp/ezgif-7-56d6a6ff6c.gif" width="100%" />
+</div> -->
+
+
+```python
 from OpenPIL import OpenPIL
 
+date = OpenPIL.AI("/path/to/the/SmPC.pdf")
 
+print(data)
+```
 
-print(OpenPIL.AI("/path/to/the/smpc.pdf"))
+and approx. 4 minutes later, you should see this in your python terminal!
+
+```
+Compiling positive class interactions...
+Compiling negative class interactions...
+Compiling caution classes...
+Compiling caution drugs...
+Compiling positive interaction drugs...
+Compiling negative interaction drugs...
+SmPC Complete!
+{
+    'SMPC NAME': '/path/to/the/SmPC.pdf', 
+    'BRAND NAME': 'drug's brand name', 
+    'ACTIVE SUBSTANCE(S)': ['array of all active substances in drug'], 
+    'ACTIVE EXCIPIENT(S)': ['array of all active excipients in drug'], 
+    'FORMULATION': ['form of drug e.g. tablet'], 
+    'INTERACTIVE DRUG CLASSES': ['array of any drug-classes that interact with the drug'], 
+    'INTERACTIVE DRUGS': ['comprehensive array of all drug's that interact, including those contained within each drug-class that interacts'], 
+    'CAUTIONS': ['array of drugs that are cautioned for use']
+}
 ```
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -299,7 +324,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the Apache License 2.0. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
