@@ -3478,6 +3478,13 @@ textarea.form-control-lg {
     background-color: coral;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
+.btn-orange-light:hover {
+  color: #000;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+    text-decoration: none;
+}
+
 
 .btn-outline-light:hover {
   color: #000;
@@ -3508,6 +3515,7 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #212529;
   border-color: #212529;
+        text-decoration: none;
 }
 .btn-check:focus + .btn-outline-dark, .btn-outline-dark:focus {
   box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
