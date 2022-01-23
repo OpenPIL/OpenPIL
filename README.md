@@ -84,7 +84,7 @@
 
 ### What is OpenPIL?
 
-OpenPIL is a non-profit organisation with an AI in its heart 💜. The AI, maintained and developed by Malik Ahmed 👨🏽‍💻 (MPharm 🥼💊), extracts essential drug information from Summary of Product Characteristics (SmPC) documents. These are drug documents 📄 which hold all the important information that doctors and pharmacists 👨🏽‍⚕️🧑🏻‍⚕️ use to make decisions about prescribing medicine. OpenPIL AI 🤖 requires the user to write one line of code, and a path to the SmPC .pdf file. It then processes the natural language in the document using datasets curated by Malik, sourced from copyright-free libraries (see references below), to show information on active-substances, active-excipients, formulation, drug-drug interactions, and drug-class interactions. It took the OpenPIL team of clinical advisors about 1 hour on average to extract that information into an excel spreadsheet manually per SmPC 🔬😥; the AI run time is approx. 4 minutes for a medium length SmPC document 🏃🏽‍♂️💨 😄, so it's pretty fast, especially considering the volume of data it's processing through.
+OpenPIL is a non-profit organisation with an AI in its heart 💜. The AI, maintained and developed by Malik Ahmed 👨🏽‍💻 (MPharm 💊), extracts essential drug information from Summary of Product Characteristics (SmPC) documents. These are drug documents 📄 which hold all the important information that doctors and pharmacists 👨🏽‍⚕️🧑🏻‍⚕️ use to make decisions about prescribing medicine. OpenPIL AI 🤖 requires the user to write one line of code, and a path to the SmPC .pdf file. It then processes the natural language in the document using datasets curated by Malik, sourced from copyright-free libraries (see references below), to show information on active-substances, active-excipients, formulation, drug-drug interactions, and drug-class interactions. It took the OpenPIL team of clinical advisors about 1 hour on average to extract that information into an excel spreadsheet manually per SmPC 🔬😥; the AI run time is approx. 4 minutes for a medium length SmPC document 🏃🏽‍♂️💨 😄, so it's pretty fast, especially considering the volume of data it's processing through.
 
 ### Why is this important?
 
@@ -236,16 +236,12 @@ Please note, that the accuracy and reliability hasn't been fully tested yet, alt
 
 ## Datasets
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+The datasets used for the OpenPIL AI were curated by Malik Ahmed and they are as follows:
+* [drugNameDataset.py](https://github.com/OpenPIL/OpenPIL/)
+* [drugClassSynonymDataset.py](https://github.com/OpenPIL/OpenPIL/)
+* *The drug class synonyms dataset was compiled from a combination of RxClass database as well as (other website) along with PubMed searching.
+* [drugClassDataset.py](https://github.com/OpenPIL/OpenPIL/)
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
