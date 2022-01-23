@@ -246,7 +246,7 @@ Pretty easy right? Well, the one line of code is the result of 2 years of workin
 
 So what are you waiting for! Get a group of summary of product characteristic documents in the .pdf format stored locally, run a simple for-loop through them, sit back 🪑😎, wait, and then BOOM 💥🤯! You're very own clinical drug-information database! Save yourself a nifty little $10,000/year why don't you. 
 
-Please note, that the accuracy and reliability hasn't been fully tested yet, although OpenPIL are working on a research paper to publish that will verify the current results. So, OpenPIL makes no guarantees to the safety of the information extracted, and does not recommend to use in clinical practice (yet).
+Please note, that the accuracy and reliability hasn't been fully tested yet, although OpenPIL are working on a research paper to publish that will verify the current results. So, OpenPIL makes no guarantees to the safety of the information extracted, and does not recommend to use in clinical practice.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
