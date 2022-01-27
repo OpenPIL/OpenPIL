@@ -331,17 +331,20 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments & References
 
-Below are the resources listed that were used to compile the OpenPIL AI Datasets, with their respective licensing information as of January 27 2022.
+Below are all the resources listed that were used to compile the OpenPIL AI Datasets, with their respective licensing information as of January 27 2022.
+
+* [drugNameDataset.py](https://github.com/OpenPIL/OpenPIL/) was compiled by extracting the drug and supplement names listed under the [European Medicines Agency](https://ema.org) (CC0), [OpenFDA NDC](https://fda.com) (CC0) and [Drugs@FDA](https://fda.org) (CC0), [NHS BSA](https://nhs.co.uk) (Crown Copyright), [Netherlands Medicines Agency](https://neth.org) (CC0).
+* [drugClassSynonymDataset.py](https://github.com/OpenPIL/OpenPIL/) was compiled using the [ChEBI Synonyms Dataset](https://chebi.com), listed under 'CC0' in the [user manual](https://chebi.com)
+* [drugClassDataset.py](https://github.com/OpenPIL/OpenPIL/) was compiled using the [OpenFDA NDC API](https://fda.com) (CC0) and the [OpenFDA Drugs@FDA API](https://fda.org) (CC0).
 
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+Here are links to open-source APIs and other projects which made it possible to build this AI:
+
+* [module](https://choosealicense.com)
+* [some github pages](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [youtubers](https://flexbox.malven.co/)
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
