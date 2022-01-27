@@ -16,7 +16,7 @@
     <br>
   <h3 align="center">The non-profit open-source AI making medication information free and safe for the developing world.</h3>
     <br>
-  </p>
+  
 </div>
 
 <p align="center">
@@ -301,7 +301,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the Apache License 2.0. See `LICENSE.txt` for more information.
+Distributed under the CC0 1.0 Universal license See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -329,9 +329,10 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 </div>
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## Acknowledgments & References
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Below are the resources listed that were used to compile the OpenPIL AI Datasets, with their respective licensing information as of January 27 2022.
+
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
