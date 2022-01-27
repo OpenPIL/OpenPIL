@@ -648,3 +648,5 @@ def AI(PDF_Path):
 
     print("FINAL DICTIONARY:\n")
     print(drugDictionary)
+
+AI("/Volumes/HARRISDRIVE/Dosewolf PDF Database/Ciclosporin.pdf")
