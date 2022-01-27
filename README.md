@@ -336,15 +336,9 @@ Below are all the resources listed that were used to compile the OpenPIL AI Data
 * [drugNameDataset.py](https://github.com/OpenPIL/OpenPIL/) was compiled by extracting the drug and supplement names listed under the [European Medicines Agency](https://ema.org) (CC0), [OpenFDA NDC](https://fda.com) (CC0) and [Drugs@FDA](https://fda.org) (CC0), [NHS BSA](https://nhs.co.uk) (Crown Copyright), [Netherlands Medicines Agency](https://neth.org) (CC0).
 * [drugClassSynonymDataset.py](https://github.com/OpenPIL/OpenPIL/) was compiled using the [ChEBI Synonyms Dataset](https://chebi.com), listed under 'CC0' in the [user manual](https://chebi.com)
 * [drugClassDataset.py](https://github.com/OpenPIL/OpenPIL/) was compiled using the [OpenFDA NDC API](https://fda.com) (CC0) and the [OpenFDA Drugs@FDA API](https://fda.org) (CC0).
+The [malik_similarity_algorithm.c](https://github.com/OpenPIL/OpenPIL/) includes two sources of external code: the [jaro winkler distance algorithm](https://github.com/miguelvps/c/blob/master/jarowinkler.c) ([GNU General Public License V3 or Later](https://www.gnu.org/licenses/gpl-3.0.en.html)) and the [ratcliff obershelp distance algorithm](https://github.com/wernsey/miscsrc/blob/master/simil.c) (terms of [unlicense](https://unlicense.org)).
 
-
-Here are links to open-source APIs and other projects which made it possible to build this AI:
-
-* [module](https://choosealicense.com)
-* [some github pages](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [youtubers](https://flexbox.malven.co/)
-
-
+All project code other than that mentioned above, was written by Malik Ahmed, and is hereby placed under the [Apache License 2.0](https://github.com/openpil/).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
