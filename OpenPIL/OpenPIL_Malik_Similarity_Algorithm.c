@@ -189,53 +189,85 @@ rsimil (const char *a, int alen, const char *b, int blen, int cs)
 
 
 
+//There were no online resources of sorensen dice coefficient algorithms written in C online which were copyright-free, so I (Malik Ahmed) wrote the below. I establish it under CC0 license (public domain) incase someone else needs it. You don't have to, but if you could please link to OpenPIL if you use it, that would be appreciated, as it could help us expand and grow the open source project.
+
+double malik_sorensen_dice_string_algorithm(const char *a, const char *b) {
+    
+    //strcmpi returns 0 if the strings are the same, and 1 if they are different.
+//    int sameZero = strcmp(a, b);
+    
+    //checks if the words are exactly identical, if they are returns one value.
+    if (a == b) {
+        return 1;
+    }
+    //checks if either of the words are empty. if they are, then the comparison results in a zero value.
+    if (a[0] == '\0') {
+        return 0;
+    }
+    if (b[0] == '\0') {
+        return 0;
+    }
+    
+    //if both strings they are not the same, and one of them is a single character long, then it cannot be a match, so returns a zero value.
+    size_t aLength = strlen(a);
+    size_t bLength = strlen(b);
+    
+    if ((aLength == 1 || bLength == 1)) {
+        return 0;
+    }
+
+    //count the number of bigrams (two-character matches) between the two strings:
+
+    
+    size_t aMinusOne = aLength - 1;
+    size_t bMinusOne = bLength - 1;
+
+    int aMinusOneInt = aLength - 1;
+    int bMinusOneInt = bLength - 1;
 
 
-//https://www.programmingalgorithms.com/algorithm/sørensen–dice-coefficient/c/
-double sorensen_dice_distance(const char *string1, const char *string2)
-{
-	if (((string1 != NULL) && (string1[0] == '\0')) || ((string2 != NULL) && (string2[0] == '\0')))
-		return 0;
+    const char *bigramsA[aMinusOneInt];
+    const char *bigramsB[bMinusOneInt];
 
-	if (string1 == string2)
-		return 1;
 
-	size_t strlen1 = strlen(string1);
-	size_t strlen2 = strlen(string2);
+    int i = 0;
+    while (i < aMinusOne) {
+        char tempA[3] = { a[i], a[i + 1], '\0' };
+        bigramsA[i] = tempA;
+        i++;
+    }
+    
+    int j = 0;
+    while (j < aMinusOne) {
+        char tempB[3] = { a[i], a[i + 1], '\0' };
+        bigramsB[j] = tempB;
+        j++;
+    }
+    
+    
+    int z = 0;
+    double bigramsN = 0;
 
-	if (strlen1 < 2 || strlen2 < 2)
-		return 0;
+    while (z < aLength && z < bLength) {
+        int biCompare = strcmp(bigramsA[z], bigramsB[z]);
+        if (biCompare == 0) {
+            bigramsN += 1;
+        }
+        z++;
+    }
 
-	size_t length1 = strlen1 - 1;
-	size_t length2 = strlen2 - 1;
 
-	double matches = 0;
-	int i = 0;
-	int j = 0;
-
-	while (i < length1 && j < length2)
-	{
-		char a[3] = { string1[i], string1[i + 1], '\0' };
-		char b[3] = { string2[j], string2[j + 1], '\0' };
-		int cmp = strcmp(a, b);
-
-		if (cmp == 0)
-			matches += 2;
-
-		++i;
-		++j;
-	}
-
-	return matches / (length1 + length2);
-
+    return (2*bigramsN) / (aMinusOne + bMinusOne);
+        
+ 
 }
-//https://www.programmingalgorithms.com/algorithm/sørensen–dice-coefficient/c/
+
 
 
 //OpenPILAI Algorithm:
 double similarity(const char *i, const char *j)
 {
-    double vx = sorensen_dice_distance(i, j);
+    double vx = malik_sorensen_dice_string_algorithm(i, j);
     double vy = jaro_winkler_distance(i, j);
     double vz = ((ratcliff_obershelp_distance(i, j))*1.0)/100;
     double v = (vx + vy + vz)/3;
