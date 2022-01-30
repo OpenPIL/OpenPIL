@@ -64,11 +64,11 @@
       </ul>
     </li>
     <li><a href="#datasets">Datasets</a></li>
-    <li><a href="#roadmap">Development</a></li>
+    <li><a href="#development">Development</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#references">References</a></li>
   </ol>
   
 <div align="center">
@@ -103,7 +103,7 @@ Currently this essential clinical medication information is highly-privatised, w
 <!-- GETTING STARTED -->
 ## Getting Started
 
-These are the instructions to install the OpenPIL AI locally and get started with analysing those Summary of Product Characteristics Documents (.pdf).
+These are the instructions to install the OpenPIL AI locally and get started with analysing those Summary of Product Characteristics Documents (.pdf). NOTE: The AI currently only works for SmPC's in European format.
 
 ### Installation
 The OpenPIL AI is really easy install. Simply type the below command into your terminal.
@@ -254,17 +254,19 @@ The datasets used for the OpenPIL AI were curated by Malik Ahmed and they are as
 </div>
 
 <!-- ROADMAP -->
-## Roadmap
+## Development
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+- [x] Add Active Substance Detection
+- [x] Add Active Excipient Detection
+- [x] Add Formulation Detection
+- [x] Add Drug-Class Interaction Detection
+- [x] Add Drug-Drug Interaction Detection
+- [x] Replace python similarity algorithm with C to improve performance from ~40 minutes/SmPC to ~4 minutes/SmPC
+- [ ] Launch OpenPIL AI open source!
+- [ ] Add Side-Effects Detection
+- [ ] Add Use in Pregnancy and Breastfeeding Detection
+- [ ] Add Storage Conditions Detection
+- [ ] Publish peer-reviewed research to validate the accuracy and reliability of the AI
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -284,9 +286,9 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/CoolFeature`)
+3. Commit your Changes (`git commit -m 'Add some CoolFeature'`)
+4. Push to the Branch (`git push origin feature/CoolFeature`)
 5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -301,7 +303,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the CC0 1.0 Universal license See `LICENSE.txt` for more information.
+Distributed under the under the [Apache License 2.0](https://github.com/OpenPIL/OpenPIL/blob/main/LICENSE). See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -315,9 +317,9 @@ Distributed under the CC0 1.0 Universal license See `LICENSE.txt` for more infor
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Malik Ahmed - malik@openpil.org
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/OpenPIL/OpenPIL](https://github.com/OpenPIL/OpenPIL)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -328,17 +330,17 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
   </a>
 </div>
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments & References
+<!-- REFERENCES -->
+## References
 
 Below are all the resources listed that were used to compile the OpenPIL AI Datasets, with their respective licensing information as of January 27 2022.
 
-* [drugNameDataset.py](https://github.com/OpenPIL/OpenPIL/) was compiled by extracting the drug and supplement names listed under the [European Medicines Agency](https://ema.org) (CC0), [OpenFDA NDC](https://fda.com) (CC0) and [Drugs@FDA](https://fda.org) (CC0), [NHS BSA](https://nhs.co.uk) (Crown Copyright), [Netherlands Medicines Agency](https://neth.org) (CC0).
-* [drugClassSynonymDataset.py](https://github.com/OpenPIL/OpenPIL/) was compiled using the [ChEBI Synonyms Dataset](https://chebi.com), listed under 'CC0' in the [user manual](https://chebi.com)
-* [drugClassDataset.py](https://github.com/OpenPIL/OpenPIL/) was compiled using the [OpenFDA NDC API](https://fda.com) (CC0) and the [OpenFDA Drugs@FDA API](https://fda.org) (CC0).
+* [drugNameDataset.py](https://github.com/OpenPIL/OpenPIL/blob/main/OpenPIL/drugNameDataset.py) was compiled by extracting the drug and supplement names listed under the [European Medicines Agency](https://www.ema.europa.eu/en/about-us/about-website/legal-notice#european-medicines-agency-copyright-and-limited-reproduction-notices-section), [OpenFDA NDC](https://open.fda.gov/data/ndc/) (CC0) and [Drugs@FDA](https://open.fda.gov/data/drugsfda/) (CC0), [NHS BSA](https://www.nhsbsa.nhs.uk/our-policies/terms-and-conditions) (Open Government License), [Netherlands Medicines Agency](https://english.cbg-meb.nl/copyright) (Re-use of Government Information Act).
+* [drugClassSynonymDataset.py](https://github.com/OpenPIL/OpenPIL/blob/main/OpenPIL/drugClassSynonymDataset.py) was compiled using the [ChEBI](https://www.ebi.ac.uk/chebi/), listed under 'CC0' for 'Synonyms' in the [User Manual](https://docs.google.com/document/d/1_w-DwBdCCOh1gMeeP6yqGzcnkpbHYOa3AGSODe5epcg/edit).
+* [drugClassDataset.py](https://github.com/OpenPIL/OpenPIL/blob/main/OpenPIL/drugClassDataset.py) was compiled using the [OpenFDA NDC API](https://open.fda.gov/data/ndc/) (CC0) and the [OpenFDA Drugs@FDA API](https://open.fda.gov/data/drugsfda/) (CC0).
 The [malik_similarity_algorithm.c](https://github.com/OpenPIL/OpenPIL/) includes two sources of external code: the [jaro winkler distance algorithm](https://github.com/miguelvps/c/blob/master/jarowinkler.c) ([GNU General Public License V3 or Later](https://www.gnu.org/licenses/gpl-3.0.en.html)) and the [ratcliff obershelp distance algorithm](https://github.com/wernsey/miscsrc/blob/master/simil.c) (terms of [unlicense](https://unlicense.org)).
 
-All project code other than that mentioned above, was written by Malik Ahmed, and is hereby placed under the [Apache License 2.0](https://github.com/openpil/).
+All project code other than that mentioned above, was written by Malik Ahmed, and is hereby placed under the [Apache License 2.0](https://github.com/OpenPIL/OpenPIL/blob/main/LICENSE).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
