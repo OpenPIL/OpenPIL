@@ -50,9 +50,8 @@
     <li>
       <a href="#about-the-project">About The Project</a>
          <ul>
-             <li><a href="#what-we-do">What is OpenPIL AI?</a></li>
-             <li><a href="#why">Why?</a></li>
-             <li><a href="#how-does-it-work">How does it work?</a></li>
+             <li><a href="#what-is-openpil?">What is OpenPIL AI?</a></li>
+             <li><a href="#why-is-this-important?">Why is this important?</a></li>
         </ul>
     </li>
     <li>
