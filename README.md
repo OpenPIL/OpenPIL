@@ -50,8 +50,8 @@
     <li>
       <a href="#about-the-project">About The Project</a>
          <ul>
-             <li><a href="#what-is-openpil?">What is OpenPIL AI?</a></li>
-             <li><a href="#why-is-this-important?">Why is this important?</a></li>
+             <li><a href="#what-is-openpil">What is OpenPIL AI?</a></li>
+             <li><a href="#why-is-this-important">Why is this important?</a></li>
         </ul>
     </li>
     <li>
@@ -81,11 +81,11 @@
 
 ## About The Project
 
-### What is OpenPIL?
+### What is OpenPIL
 
 OpenPIL is a non-profit organisation with an AI at its core. The AI, maintained and developed by Malik Ahmed (MPharm), extracts essential drug information from Summary of Product Characteristics (SmPC) documents. These are drug documents which hold all the important information that doctors and pharmacists use to make decisions about prescribing medicine. OpenPIL AI requires the user to write one line of code, and a path to the SmPC .pdf file. It then processes the natural language in the document using datasets curated by Malik, sourced from copyright-free libraries (see references below), to show information on active-substances, active-excipients, formulation, drug-drug interactions, and drug-class interactions. It took the OpenPIL team of clinical advisors about 1 hour on average to extract that information into an excel spreadsheet manually per SmPC; the AI run time is approx. 4 minutes for a medium length SmPC document, so it's pretty fast, especially considering the volume of data it's processing through.
 
-### Why is this important?
+### Why is this important
 
 Currently this essential clinical medication information is highly-privatised, which restricts access to healthcare technology developers who need it to create ground-breaking products for patients. This restriction limits the current state of healthcare-technology, and indirectly is putting peoples health at greater risk. This is particularly of concern for those in developing and war-torn countries, whose access to up-to-date medicinal information is limited, even though it doesn't have to be. The aim of making the OpenPIL AI open-source is to accelerate the development of affordable drug-databases and healthcare technology around the world!
 
