@@ -217,13 +217,9 @@ SmPC Complete!
 }
 ```
 
-And that's it! 
+And that's it! Get a group of summary of product characteristic documents in the .pdf format stored locally, run a simple for-loop through them, sit back 🪑😎, wait, and then BOOM 💥🤯! You're very own clinical drug-information database!
 
-Pretty easy right? Well, that one line of code is the result of 2 years of working on some cool code and datasets, unpaid! So if you could donate, or check out my medication tracking app, Dosewolf (the reason OpenPIL began), that may be able to help reduce the side-effects of your medication by spacing your doses correctly, built with a database relying entirely on the OpenPIL AI, it would be very appreciated! And it would mean I could continue to improve the AI and expand it's capacities.
-
-So what are you waiting for! Get a group of summary of product characteristic documents in the .pdf format stored locally, run a simple for-loop through them, sit back 🪑😎, wait, and then BOOM 💥🤯! You're very own clinical drug-information database!
-
-Please note, that the accuracy and reliability hasn't been fully tested yet, although OpenPIL are working on a research paper to publish that will verify the current results. So, OpenPIL makes no guarantees to the safety of the information extracted, and does not recommend to use in clinical practice.
+Please note, that the accuracy and reliability hasn't been fully tested yet, although, OpenPIL are working on a research paper to publish that will verify the current results. So, OpenPIL makes no guarantees to the safety of the information extracted, and does not recommend its use in clinical practice. The [Apache License 2.0](https://github.com/OpenPIL/OpenPIL/blob/main/LICENSE) applies.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -261,7 +257,7 @@ The datasets used for the OpenPIL AI were curated by Malik Ahmed and they are as
 - [x] Add Drug-Class Interaction Detection
 - [x] Add Drug-Drug Interaction Detection
 - [x] Replace python similarity algorithm with C to improve performance from ~40 minutes/SmPC to ~4 minutes/SmPC
-- [ ] Launch OpenPIL AI open source!
+- [x] Launch OpenPIL AI open source!
 - [ ] Add Side-Effects Detection
 - [ ] Add Use in Pregnancy and Breastfeeding Detection
 - [ ] Add Storage Conditions Detection
