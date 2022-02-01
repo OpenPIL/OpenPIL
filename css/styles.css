@@ -12684,7 +12684,7 @@ p .example-title {
     min-width: 40px;
    border-radius: 50%;
 /*   position: relative;*/
-   border-color: rgb(167, 183, 254);
+   border-color: white;
    border-style: solid;
    border-width: 2px;
 }
