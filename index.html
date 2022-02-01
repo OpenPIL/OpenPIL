@@ -37,18 +37,18 @@
                         
                         <div class=" collapse navbar-collapse my-4" style="padding-right: 1.5%" id="navbarResponsive">
                             <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                                <a class="nav-link me-lg-0 text-muted text-small-top" href="#features">HOME</a>
-                                <a class="nav-link me-lg-0 text-muted text-small-top" href="#features">WHAT WE DO</a>
-                               <a class="nav-link me-lg-0 text-muted text-small-top" href="#features">PARTNERS</a>
-                                <a class="nav-link me-lg-0 text-muted text-small-top" href="#features">TIMELINE</a>
-                               <a class="nav-link me-lg-0 text-muted text-small-top" href="#features">TEAM</a>
-                               <a class="nav-link me-lg-0 text-muted text-small-top" href="#features">CONTACT US</a>
+                                <a class="nav-link me-lg-0 text-muted text-small-top" href="#home">HOME</a>
+                                <a class="nav-link me-lg-0 text-muted text-small-top" href="#what-we-do">WHAT WE DO</a>
+                               <a class="nav-link me-lg-0 text-muted text-small-top" href="#partners">PARTNERS</a>
+                                <a class="nav-link me-lg-0 text-muted text-small-top" href="#timeline">TIMELINE</a>
+                               <a class="nav-link me-lg-0 text-muted text-small-top" href="#team">TEAM</a>
+                               <a class="nav-link me-lg-0 text-muted text-small-top" href="#contact-us">CONTACT US</a>
                             </ul>
                         </div>
                     </div>
                 </nav>
             <!---Navigarion ends--->
-            <div class="">
+            <div class="" id="home">
                 <div class="row gx-5 align-items-center mb-5">
                     <div class="col-lg-7">
                         <!-- Mashead text and app badges-->
@@ -154,7 +154,7 @@
         <!-- App features section-->
 
         
-        <section3 style="background-color: whitesmoke">
+        <section3 style="background-color: whitesmoke" id="what-we-do">
             
             <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center mt-2" style="padding-right: 7%; padding-left: 7%; background-color: whitesmoke">
                    <div class="col-lg-5">
@@ -226,6 +226,39 @@
       function stopVideo() {
         player.stopVideo();
       }
+        
+        
+
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+
+        
+        
+        
+        
+        
     </script>
             
             
@@ -287,7 +320,7 @@
         
         
         
-        <section class=" css-selector">
+        <section class=" css-selector"  id="partners">
         <section2 style="background-color: whitesmoke">
             <div class="d-flex flex-column flex-lg-row align-items-center " style="padding-right: 7%; padding-left: 7%; background-color: c;  mt-4">
 <!--                <img src="assets/img/OPSFLogo.png" class="greenEarth2" style="max-width: 120px; width:100%">-->
@@ -350,7 +383,7 @@
         
         
            
-        <section2 class="sectionTop" style="background-color: whitesmoke">
+        <section2 class="sectionTop" style="background-color: whitesmoke"  id="timeline">
         <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center" style="padding-right: 7%; padding-left: 7%;background-color: whitesmoke">
                    <div class="">
                        
@@ -447,7 +480,7 @@
                 </div>
         </section2>
 
-         <section2 class="sectionTop parallax__group ">
+         <section2 class="sectionTop parallax__group "  id="team">
                 <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center css-selector" style="padding-right: 7%; padding-left: 7%;">
                    <div class="col-lg mt-6 mb-6">
                       <p class="lead fw-normal mb-3 mt-1" style="color: whitesmoke" >The Team</p>
@@ -495,7 +528,7 @@
         
         
         <!-- Footer-->
-        <footer class="text-center py-5 css-selector2">
+        <footer class="text-center py-5 css-selector2"  id="contact-us">
             <div class=" px-5">
                 <div class="text-white-50 small">
                     <div class="mb-2" style="color: darkgray">OpenPIL CIC is maintained by Malik Ahmed. Email: malik@openpil.org</div>
