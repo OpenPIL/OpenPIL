@@ -14,7 +14,7 @@
   </a>
     <br>
     <br>
-  <h3 align="center">The non-profit open-source AI making medication information free and safe for the developing world.</h3>
+  <h3 align="center">The non-profit making medication information freely accessible and reliable using AI.</h3>
     <br>
   
 </div>
