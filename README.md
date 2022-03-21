@@ -105,7 +105,7 @@ Currently this essential clinical medication information is highly-privatised, w
 These are the instructions to install the OpenPIL AI locally and get started with analysing those Summary of Product Characteristics Documents (.pdf). NOTE: The AI currently only works for SmPC's in European format.
 
 ### Installation
-The OpenPIL AI is really easy install. Simply type the below command into your terminal.
+The OpenPIL AI is really easy to install. Simply type the below command into your terminal.
 
 ```
 pip install OpenPIL
